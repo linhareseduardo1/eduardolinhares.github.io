@@ -3113,7 +3113,7 @@ input, select, textarea {
 				opacity: 1;
 			}
 
-			#header.alt .logo {
+			#header.alt .imagem {
 				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
 				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
 				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
@@ -3126,7 +3126,7 @@ input, select, textarea {
 				margin: 0 0 1.5em 0;
 			}
 
-				#header.alt .logo img {
+				#header.alt .imagem img {
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
@@ -3209,7 +3209,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		body.is-preload #header.alt .logo {
+		body.is-preload #header.alt .imagem {
 			-moz-transform: scale(0.8) rotate(-30deg);
 			-webkit-transform: scale(0.8) rotate(-30deg);
 			-ms-transform: scale(0.8) rotate(-30deg);
