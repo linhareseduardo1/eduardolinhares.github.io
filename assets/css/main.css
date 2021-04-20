@@ -3068,7 +3068,7 @@ input, select, textarea {
 			}
 
 				.spotlight .image svg {
-					width: 12em;
+				width: calc(95% );
 				}
 
 		}
