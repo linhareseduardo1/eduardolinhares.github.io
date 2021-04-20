@@ -2966,7 +2966,7 @@ input, select, textarea {
 
 /* Spotlight */
 
-	.spotlight {
+.spotlight {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2995,8 +2995,10 @@ input, select, textarea {
 
 		.spotlight .image {
 			display: inline-block;
+			margin-left: 4em;
 			padding: 0.65em;
-		
+			border-radius: 100%;
+			border: solid 1px;
 		}
 
 			.spotlight .image svg {
