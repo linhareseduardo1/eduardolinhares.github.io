@@ -2496,6 +2496,17 @@ input, select, textarea {
 
 /* Actions */
 
+		ul.actions {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			cursor: default;
+			list-style: none;
+			margin-left: auto;
+			margin-right: auto;
+
+	}
 		ul.actions li {
             
 			text-align: center;
@@ -2512,7 +2523,7 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			width: 100%;
-        				margin: 0.7em 0 1em 0;
+			margin-left: 0;
 		}
 
 			ul.actions.special li:first-child {
@@ -2536,6 +2547,8 @@ input, select, textarea {
 				}
 
 		ul.actions.fit {
+				width: calc(100% + 1em);
+
 		}
 
 			ul.actions.fit li {
