@@ -3208,7 +3208,7 @@ input, select, textarea {
 		}
 
 		body.is-preload #header.alt {
-			opacity: 0;
+			opacity: 20;
 		}
 
 		body.is-preload #header.alt .imagem {
