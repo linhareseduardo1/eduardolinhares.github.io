@@ -3101,7 +3101,7 @@ input, select, textarea {
 				font-size: 3.25em;
 			}
 
-			#header.alt > * {
+			#header.alt {
 				-moz-transition: opacity 1s ease;
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
@@ -3207,7 +3207,7 @@ input, select, textarea {
 
 		}
 
-		body.is-preload #header.alt > * {
+		body.is-preload #header.alt {
 			opacity: 0;
 		}
 
