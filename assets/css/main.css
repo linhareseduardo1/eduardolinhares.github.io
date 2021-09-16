@@ -3118,7 +3118,7 @@ input, select, textarea {
 			transform-origin: bottom;
 				}
 			#plantas2{
-			animation: plantas2 2s ease-in-out infinite alternate;
+			animation: swing 2s ease-in-out infinite alternate;
 			 transform-origin: bottom;
 				}
 
