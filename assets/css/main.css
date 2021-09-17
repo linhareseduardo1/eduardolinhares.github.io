@@ -3113,7 +3113,7 @@ input, select, textarea {
 				opacity: 1;
 			}
 
-			 .plantas2{
+			 #plantas2{
 		    animation: plants 1s ease-in-out infinite alternate;
 			transform-origin: bottom;
 				}
@@ -3133,7 +3133,7 @@ input, select, textarea {
 					display: fl,zex;
 					margin: 0 auto;
 					max-width: 40%;
-				}.;çlk
+				}
 		@media screen and (max-width: 1280px) {
 
 			#header {
