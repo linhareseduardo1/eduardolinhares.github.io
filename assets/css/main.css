@@ -3113,16 +3113,16 @@ input, select, textarea {
 				opacity: 1;
 			}
 
-			 #plantas2{
-		    animation: plants 1s ease-in-out infinite alternate;
+			 #plantas2 {
+		    	animation: plants 1s ease-in-out infinite alternate;
 			transform-origin: bottom;
 				}
-			#plantas2{
+			#plantas2 {
 			animation: swing 2s ease-in-out infinite alternate;
 			 transform-origin: bottom;
 				}
 
-			#man{
+			#man {
 			    animation: man 3s ease-in-out infinite alternate;
 			   transform-origin: bottom;
 			}
