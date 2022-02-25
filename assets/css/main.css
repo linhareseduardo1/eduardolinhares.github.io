@@ -2496,17 +2496,6 @@ input, select, textarea {
 
 /* Actions */
 
-		ul.actions {
-			display: -moz-flex;
-			display: -webkit-flex;
-			display: -ms-flex;
-			display: flex;
-			cursor: default;
-			list-style: none;
-			margin-left: auto;
-			margin-right: auto;
-
-	}
 		ul.actions li {
             
 			text-align: center;
@@ -2523,7 +2512,7 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			width: 100%;
-			margin-left: 0;
+        				margin: 0.7em 0 1em 0;
 		}
 
 			ul.actions.special li:first-child {
@@ -2547,8 +2536,6 @@ input, select, textarea {
 				}
 
 		ul.actions.fit {
-				width: calc(100% + 1em);
-
 		}
 
 			ul.actions.fit li {
@@ -2979,7 +2966,7 @@ input, select, textarea {
 
 /* Spotlight */
 
-.spotlight {
+	.spotlight {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3008,10 +2995,8 @@ input, select, textarea {
 
 		.spotlight .image {
 			display: inline-block;
-			margin-left: 4em;
 			padding: 0.65em;
-			border-radius: 100%;
-			border: solid 0px;
+		
 		}
 
 			.spotlight .image svg {
@@ -3068,7 +3053,7 @@ input, select, textarea {
 			}
 
 				.spotlight .image svg {
-				width: calc(95% );
+					width: 12em;
 				}
 
 		}
@@ -3101,7 +3086,7 @@ input, select, textarea {
 				font-size: 3.25em;
 			}
 
-			#header.alt {
+			#header.alt > * {
 				-moz-transition: opacity 1s ease;
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
@@ -3113,16 +3098,16 @@ input, select, textarea {
 				opacity: 1;
 			}
 
-			.plantas #plantas2 {
-		    	animation: plants 1s ease-in-out infinite alternate;
+			 #plantas1{
+		    animation: plants 1s ease-in-out infinite alternate;
 			transform-origin: bottom;
 				}
-			.plantas #plantas2 {
-			animation: swing 2s ease-in-out infinite alternate;
+			#plantas2{
+			animation: plants 2s ease-in-out infinite alternate;
 			 transform-origin: bottom;
 				}
 
-			#man {
+			#homem{
 			    animation: man 3s ease-in-out infinite alternate;
 			   transform-origin: bottom;
 			}
@@ -3207,8 +3192,8 @@ input, select, textarea {
 
 		}
 
-		body.is-preload #header.alt {
-			opacity: 20;
+		body.is-preload #header.alt > * {
+			opacity: 0;
 		}
 
 		body.is-preload #header.alt .imagem {
@@ -3587,7 +3572,7 @@ background-color:  transparent;
 		}
 
 		#main .spotlight .image {
-			border-color: transparent;
+			border-color: #dddddd;
 		}
 
 		#main > .main {
@@ -3900,6 +3885,5 @@ background-color:  transparent;
 			}
 
 		}
-
 
 
