@@ -3816,6 +3816,7 @@ background-color:  transparent;
 			#footer {
 				padding: 3em 2em 1em 2em ;
 			}
+			
 
 		}
 
@@ -3823,6 +3824,24 @@ background-color:  transparent;
 
 			#footer {
 				padding: 3em 1.5em 1em 1.5em ;
+			}
+			.iframecontainer{
+				position: relative;
+				width: 100%;
+				padding-bottom: 56.25%; 
+				height: 0;	
+				align: center;
+
+			}
+			.iframecontainer iframe{
+
+				position: absolute;
+				top:-30px;
+				left: 0;				
+				width: 80%;
+				height: 100%;
+				align: center;
+
 			}
 
 		}
@@ -3847,7 +3866,7 @@ background-color:  transparent;
 				left: 0;				
 				width: 80%;
 				height: 100%;
-								align: center;
+				align: center;
 
 			}
 		}	
@@ -3864,6 +3883,24 @@ background-color:  transparent;
 			#wrapper {
 				max-width: calc(100% - 2em);
 			}
+					 .iframecontainer{
+				position: relative;
+				width: 100%;
+				padding-bottom: 56.25%; 
+				height: 0;	
+				align: center;
+
+			}
+			.iframecontainer iframe{
+
+				position: absolute;
+				top:-30px;
+				left: 0;				
+				width: 80%;
+				height: 100%;
+				align: center;
+
+			}
 
 		}
 
@@ -3871,6 +3908,24 @@ background-color:  transparent;
 
 			#wrapper {
 				max-width: 100%;
+			}
+					 .iframecontainer{
+				position: relative;
+				width: 100%;
+				padding-bottom: 56.25%; 
+				height: 0;	
+				align: center;
+
+			}
+			.iframecontainer iframe{
+
+				position: absolute;
+				top:-30px;
+				left: 0;				
+				width: 80%;
+				height: 100%;
+				align: center;
+
 			}
 
 		}
