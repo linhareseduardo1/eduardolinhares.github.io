@@ -82,7 +82,9 @@ input, select, textarea {
 		-ms-overflow-style: scrollbar;
 	}
 
-	@media screen and (max-width: 480px) {
+	@
+	
+	 screen and (max-width: 480px) {
 
 		html, body {
 			min-width: 320px;
@@ -2107,7 +2109,7 @@ input, select, textarea {
 				height: 2.0625em;
 				left: 0;
 				line-height: 2.0625em;
-				position: absolute;
+				position: relative;
 				text-align: center;
 				top: 0;
 				width: 2.0625em;
@@ -3086,6 +3088,13 @@ input, select, textarea {
 				font-size: 3.25em;
 			}
 
+			#header.alt > * {
+				-moz-transition: opacity 0.25s ease;
+				-webkit-transition: opacity 0.25s ease;
+				-ms-transition: opacity 0.25s ease;
+				transition: opacity 0.25s ease;
+				opacity: 1;
+			}
 
 			 #plantas1{
 		    animation: plants 1s ease-in-out infinite alternate;
@@ -3201,7 +3210,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
 		color: black;
-		position: absolute;
+		position: relative;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
@@ -3317,7 +3326,6 @@ input, select, textarea {
 
 /* Main */
 
-	#main {
 background-color:  transparent;
 		color: #ffffff;
 		border-radius: 0.25em;
@@ -3478,6 +3486,21 @@ background-color:  transparent;
 			border-color: #8cc9f0;
 			box-shadow: 0 0 0 1px #8cc9f0;
 		}
+		
+		#fade-container {
+   		 position: absolute;
+  		  left: 0px;
+   		 right: 0px;
+  		  bottom: 0px;
+  		  top: 50px;
+  		  text-align:center; 
+  		  }
+
+	img:last-child {
+		background-color:transparent;
+  		text-align: center;
+		}
+
 
 		#main ::-webkit-input-placeholder {
 			color: rgba(99, 99, 99, 0.25) !important;
@@ -3685,6 +3708,12 @@ background-color:  transparent;
 			#main > .main {
 				padding: 4em 4em 2em 4em ;
 			}
+			.html5-video-container{
+				-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+		align-items: center;
+		}
 
 				#main > .main > .image.main:first-child {
 					margin: -4em 0 4em -4em;
@@ -3698,6 +3727,12 @@ background-color:  transparent;
 			#main > .main {
 				padding: 4em 3em 2em 3em ;
 			}
+			.html5-video-container{
+				-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+		align-items: center;
+		}
 
 				#main > .main > .image.main:first-child {
 					margin: -4em 0 4em -3em;
@@ -3711,6 +3746,12 @@ background-color:  transparent;
 			#main > .main {
 				padding: 3em 2em 1em 2em ;
 			}
+			.html5-video-container{
+				-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+		align-items: center;
+		}
 
 				#main > .main > .image.main:first-child {
 					margin: -3em 0 2em -2em;
@@ -3816,7 +3857,6 @@ background-color:  transparent;
 			#footer {
 				padding: 3em 2em 1em 2em ;
 			}
-			
 
 		}
 
@@ -3825,24 +3865,13 @@ background-color:  transparent;
 			#footer {
 				padding: 3em 1.5em 1em 1.5em ;
 			}
-			.iframecontainer{
-				position: relative;
-				width: 100%;
-				padding-bottom: 56.25%; 
-				height: 0;	
-				align: center;
-
-			}
 			.iframecontainer iframe{
-
-				position: absolute;
-				top:-30px;
-				left: 0;				
-				width: 80%;
-				height: 100%;
-				align: center;
-
-			}
+				-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+		align-items: center;
+						 margin-left:40px;
+		}
 
 		}
 
@@ -3859,14 +3888,20 @@ background-color:  transparent;
 				align: center;
 
 			}
-			.iframecontainer iframe{
+			.iframecontainer{
 
-				position: absolute;
+				-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+		align-items: center;
+		}
+			.iframecontainer iframe{
+				 margin-left:40px;
 				top:-30px;
 				left: 0;				
 				width: 80%;
 				height: 100%;
-				align: center;
+								align: center;
 
 			}
 		}	
@@ -3883,24 +3918,13 @@ background-color:  transparent;
 			#wrapper {
 				max-width: calc(100% - 2em);
 			}
-					 .iframecontainer{
-				position: relative;
-				width: 100%;
-				padding-bottom: 56.25%; 
-				height: 0;	
-				align: center;
-
-			}
 			.iframecontainer iframe{
-
-				position: absolute;
-				top:-30px;
-				left: 0;				
-				width: 80%;
-				height: 100%;
-				align: center;
-
-			}
+				 margin-left:40px;
+				-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+		align-items: center;
+		}
 
 		}
 
@@ -3909,24 +3933,22 @@ background-color:  transparent;
 			#wrapper {
 				max-width: 100%;
 			}
-					 .iframecontainer{
-				position: relative;
-				width: 100%;
-				padding-bottom: 56.25%; 
-				height: 0;	
-				align: center;
-
-			}
 			.iframecontainer iframe{
+		margin: 0 auto;
+		align-items: center;
+						 margin-left:25px;
+		}
+		
 
-				position: absolute;
-				top:-30px;
-				left: 0;				
-				width: 80%;
-				height: 100%;
-				align: center;
+		}
+		@media screen and (max-width: 340px) {
 
-			}
+			.iframecontainer iframe{
+		margin: 0 auto;
+		align-items: center;
+						 margin-left:30px;
+		}
+		
 
 		}
 
