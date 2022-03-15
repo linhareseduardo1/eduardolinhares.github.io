@@ -21,6 +21,16 @@
 		});
 
 	// Play initial animations on page load.
+		window.addEventListener("load", function() {
+	    var fadeContainer = document.querySelector("#fade-container");
+	  
+	  setTimeout(function() {
+	      
+		fadeContainer.style.display = "none";
+	    
+	  }, 1000);
+	});
+		
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
