@@ -3880,30 +3880,26 @@ background-color:  transparent;
 			#footer {
 				padding: 2.5em 1em 0.5em 1em ;
 			}
-			 .iframecontainer{
-				position: relative;
-				width: 100%;
-				padding-bottom: 56.25%; 
-				height: 0;	
-				align: center;
-
+			#main {
+				border-radius: 0;
 			}
-			.iframecontainer{
 
-				-moz-align-items: center;
-			-webkit-align-items: center;
-			-ms-align-items: center;
-		align-items: center;
+				#main > .main {
+					padding: 2.5em 1em 0.5em 1em ;
+				}
+
+					#main > .main > .image.main:first-child {
+						margin: -2.5em 0 1.5em -1em;
+						width: calc(100% + 2em);
+						border-radius: 0;
+					}
+
+						#main > .main > .image.main:first-child img {
+							border-radius: 0;
+						}
+
 		}
-			.iframecontainer iframe{
-				 margin-left:40px;
-				top:-30px;
-				left: 0;				
-				width: 80%;
-				height: 100%;
-								align: center;
 
-			}
 		}	
 /* Wrapper */
 
