@@ -3670,23 +3670,6 @@ background-color:  transparent;
 			#main {
 				border-radius: 0;
 			}
-			 .iframe{
-
-			 	max-width: calc(100% - 2em);
-				position: relative;
-				width: 100%;
-				height: 0;	
-				align: center;
-
-			}
-			.iframe iframe{
-				position: relative;
-				top:  50px;
-				left: 40%;				
-				width: 80%;
-				align-items: center;
-
-		}
 
 				#main > .main {
 					padding: 2.5em 1em 0.5em 1em ;
@@ -3773,7 +3756,6 @@ background-color:  transparent;
 
 			#footer {
 				padding: 3em 1.5em 1em 1.5em ;
-
 			}
 
 		}
@@ -3783,7 +3765,24 @@ background-color:  transparent;
 			#footer {
 				padding: 2.5em 1em 0.5em 1em ;
 			}
-			
+			 .iframecontainer{
+				position: relative;
+				width: 100%;
+				padding-bottom: 56.25%; 
+				height: 0;	
+				align: center;
+
+			}
+			.iframecontainer iframe{
+
+				position: absolute;
+				top:-30px;
+				left:50px;				
+				width: 80%;
+				height: 100%;
+								align: center;
+
+			}
 		}	
 /* Wrapper */
 
@@ -3796,10 +3795,8 @@ background-color:  transparent;
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
-
 				max-width: calc(100% - 2em);
 			}
-			
 
 		}
 
@@ -3810,3 +3807,5 @@ background-color:  transparent;
 			}
 
 		}
+
+
