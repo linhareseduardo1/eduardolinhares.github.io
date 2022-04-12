@@ -3763,36 +3763,39 @@ background-color:  transparent;
 		@media screen and (max-width: 480px) {
 
 			#main > .main {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 3em 2em 1em 2em ;
 			}
+			.html5-video-container{
+				-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+		align-items: center;
+		}
 
 				#main > .main > .image.main:first-child {
-					margin: -3em 0 1.5em -1.5em;
-					width: calc(100% + 3em);
+					margin: -4em 0 2em -2em;
+					width: calc(100% + 4em);
 				}
 
 		}
 
 		@media screen and (max-width: 360px) {
 
-			#main {
-				border-radius: 0;
+	
+			#main > .main {
+				padding: 4em 3em 2em 3em ;
 			}
+			.html5-video-container{
+				-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+		align-items: center;
+		}
 
-				#main > .main {
-					padding: 2.5em 1em 0.5em 1em ;
+				#main > .main > .image.main:first-child {
+					margin: 10px 0px 10px 10px;
+					width: calc(100% + 6em);
 				}
-
-					#main > .main > .image.main:first-child {
-						margin: -2.5em 0 1.5em -1em;
-						width: calc(100% + 2em);
-						border-radius: 0;
-					}
-
-						#main > .main > .image.main:first-child img {
-							border-radius: 0;
-						}
-
 		}
 
 /* Footer */
@@ -3860,21 +3863,8 @@ background-color:  transparent;
 
 		}
 
-		@media screen and (max-width: 480px) {
 
-			#footer {
-				padding: 3em 1.5em 1em 1.5em ;
-			}
-			.iframecontainer iframe{
-				-moz-align-items: center;
-			-webkit-align-items: center;
-			-ms-align-items: center;
-		align-items: center;
-						 margin-left:40px;
-		}
-
-		}
-
+	
 		@media screen and (max-width: 700px) {
 
 			#footer {
@@ -3888,20 +3878,14 @@ background-color:  transparent;
 				align: center;
 
 			}
-			.iframecontainer{
-
-				-moz-align-items: center;
-			-webkit-align-items: center;
-			-ms-align-items: center;
-		align-items: center;
-		}
 			.iframecontainer iframe{
-				 margin-left:40px;
+
+				position: absolute;
 				top:-30px;
-				left: 0;				
+				left: 10%;				
 				width: 80%;
 				height: 100%;
-								align: center;
+				align-items: center;
 
 			}
 		}	
@@ -3918,13 +3902,6 @@ background-color:  transparent;
 			#wrapper {
 				max-width: calc(100% - 2em);
 			}
-			.iframecontainer iframe{
-				 margin-left:40px;
-				-moz-align-items: center;
-			-webkit-align-items: center;
-			-ms-align-items: center;
-		align-items: center;
-		}
 
 		}
 
@@ -3933,21 +3910,7 @@ background-color:  transparent;
 			#wrapper {
 				max-width: 100%;
 			}
-			.iframecontainer iframe{
-		margin: 0 auto;
-		align-items: center;
-						 margin-left:25px;
-		}
-		
+
 
 		}
-		@media screen and (max-width: 340px) {
 
-			.iframecontainer iframe{
-		margin: 0 auto;
-		align-items: center;
-						 margin-left:30px;
-		}
-		
-
-		}
