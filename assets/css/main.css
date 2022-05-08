@@ -3190,10 +3190,6 @@ input, select, textarea {
 
 		}
 
-		body.is-preload #header.alt > * {
-			opacity: 0;
-		}
-
 		body.is-preload #header.alt .imagem {
 			-moz-transform: scale(0.8) rotate(-30deg);
 			-webkit-transform: scale(0.8) rotate(-30deg);
