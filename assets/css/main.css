@@ -3003,7 +3003,7 @@ input, select, textarea {
 
 			.spotlight .image svg {
 				display: block;
-				width: 400px;
+				width: 500px;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3055,7 +3055,7 @@ input, select, textarea {
 			}
 
 				.spotlight .image svg {
-					width: 12em;
+					width: 15em;
 				}
 
 		}
